@@ -82,15 +82,8 @@ p {
 }
 
 /* Form Styles */
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
 
-input[type="text"] {
+input {
   width: 70%;
   padding: 10px;
   font-size: 1em;
@@ -134,20 +127,6 @@ li {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-  input[type="text"] {
-    width: 100%;
-  }
-  form {
-    flex-direction: column;
-  }
-  button {
-    width: 100%;
-  }
-}
 
 .nav-link {
   text-decoration: none;
